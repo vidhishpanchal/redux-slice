@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Heading</h1>
+        <div id="content">
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam officia maiores aspernatur corrupti nisi distinctio sapiente quam reiciendis odio illum iste, assumenda perferendis exercitationem perspiciatis quidem. Accusantium impedit deleniti libero.</p>
+    </div>
+
+    <script>
+        //strings
+        var Name = 'Mitali Patni';
+        var degree = 'BTech Biomedical'
+        var desc = `My name is ${Name} and I am pursuing ${degree}`;
+        console.log(desc)
+
+        var len = Name.length;
+        console.log(`Length of my name is ${len}`)
+
+        // escape sequence characters
+        console.log("Hello World \n Mitali here \t Bye \b See you soon") 
+
+        document.getElementById('content').innerHTML = '<h3>My Heading</h3>'
+    </script>
+    
+</body>
+</html>
